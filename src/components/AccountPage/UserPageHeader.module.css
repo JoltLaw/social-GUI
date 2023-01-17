@@ -1,0 +1,42 @@
+.userHeader {
+  background-color: rgb(225, 173, 1);
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 112, 52),
+    rgb(225, 173, 1)
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo div h1 {
+  color: #1f1f1f;
+  margin: 10px;
+}
+
+.dotMenu {
+  user-select: none;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  cursor: pointer;
+  height: auto;
+  padding: 5px;
+}
+
+.dotMenu span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 8px;
+}

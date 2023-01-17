@@ -1,0 +1,45 @@
+.MenuContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 3;
+}
+
+.menuList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList li {
+  height: 22.9vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.menuList li:nth-child(1) {
+  background-color: rgb(188, 56, 35);
+}
+.menuList li:nth-child(2) {
+  background-color: rgb(255, 112, 52);
+}
+.menuList li:nth-child(3) {
+  background-color: rgb(225, 173, 1);
+}
+
+.menuList li:nth-child(4) {
+  background-color: rgb(188, 56, 35);
+}
+
+.menuList li div {
+  text-align: center;
+}
+
+.menuList li div span {
+  cursor: pointer;
+  font-size: 60px;
+}

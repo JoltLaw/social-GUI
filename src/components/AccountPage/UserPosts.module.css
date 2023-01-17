@@ -1,0 +1,32 @@
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(188, 56, 35);
+  gap: 1px;
+}
+
+.postGridItem {
+  border-top: 0.5px solid rgb(121, 38, 25);
+  border-bottom: 0.5px solid rgb(121, 38, 25);
+  color: #1f1f1f;
+  /* background-color: orange; */
+  text-align: center;
+  cursor: pointer;
+}
+
+.noPosts {
+  grid-column: 1 / span 4;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
